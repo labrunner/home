@@ -1,0 +1,23 @@
+/*CSS*/
+
+body {
+    background-color: #5989B3;
+}
+
+.sidebar {
+    background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	color: white;
+    width: 300px;
+	height: 600px;
+	margin-left:5px;
+}
+
+.sidebarcontent{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.frame {
+	position: relative;
+}
