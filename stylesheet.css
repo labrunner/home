@@ -2,33 +2,52 @@
 
 @font-face { font-family: LabRunner; src: url('assets/font.ttf'); } 
 
-body {
-	background-image: url("assets/background.png");
+body
+{
+background:url("assets/background.png");
+background-size:100% 100%;
+background-repeat:no-repeat;
 }
 
+/*Main div (sidebar and frame, underneath title*/
+.content {
+    width: 1000px;
+	height: 80%;
+}
+
+/*The sidebar*/
 .sidebar {
+    margin: 0 auto;
     float: left;
     font-family: LabRunner;
 	background-color: rgba(0,0,0,0.5);
+	border: 2px solid white;
 	border-radius: 10px;
 	color: white;
     width: 300px;
-	height: 600px;
+	height: 100%;
 	margin-left:5px;
 }
 
+/*the box with the iframe in it*/
 .frame {
+	width: 95%;
+    margin: 0 auto;
     float: left;
     font-family: LabRunner;
 	background-color: rgba(0,0,0,0.5);
-	border: 1px white;
+	border: 2px solid white;
 	border-radius: 10px;
 	color: white;
-    width: 680px;
-	height: 600px;
+    width: 670px;
+	height: 100%;
 	margin-left:5px;
 }
 
-.button {
+/*the actual iframe*/
+.iframe {
     margin-left: 5px;
+	width: 95%;
+	height: 85%;
+	border: 0px;
 }

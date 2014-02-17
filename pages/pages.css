@@ -1,0 +1,10 @@
+/*CSS*/
+
+@font-face { font-family: LabRunner; src: url('assets/font.ttf'); } 
+
+body
+{
+background:white;
+font-family: LabRunner;
+color:black;
+}
