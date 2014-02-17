@@ -1,11 +1,15 @@
 /*CSS*/
 
+@font-face { font-family: LabRunner; src: url('assets/font.ttf'); } 
+
 body {
-    background-color: #5989B3;
+	background-image: url("assets/background.png");
 }
 
 .sidebar {
-    background-color: rgba(0,0,0,0.3);
+    float: left;
+    font-family: LabRunner;
+	background-color: rgba(0,0,0,0.5);
 	border-radius: 10px;
 	color: white;
     width: 300px;
@@ -13,11 +17,18 @@ body {
 	margin-left:5px;
 }
 
-.sidebarcontent{
-	margin-left: 10px;
-	margin-top: 5px;
+.frame {
+    float: left;
+    font-family: LabRunner;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px white;
+	border-radius: 10px;
+	color: white;
+    width: 680px;
+	height: 600px;
+	margin-left:5px;
 }
 
-.frame {
-	position: relative;
+.button {
+    margin-left: 5px;
 }
